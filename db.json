@@ -1,0 +1,69 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "creationDate": "2024-01-01",
+      "creationTime": "10:00 AM",
+      "status": "Active",
+      "email": "john.doe@example.com",
+      "phone": "98899090"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "creationDate": "2024-01-02",
+      "creationTime": "11:00 AM",
+      "status": "Non Active",
+      "email": "jane.smith@example.com",
+      "phone": "98899090"
+    },
+    {
+      "id": "3",
+      "name": "Alice Johnson",
+      "creationDate": "2024-01-03",
+      "creationTime": "09:30 AM",
+      "status": "Lead",
+      "email": "alice.johnson@example.com",
+      "phone": "98899090"
+    },
+    {
+      "id": "4",
+      "name": "Bob Brown",
+      "creationDate": "2024-01-04",
+      "creationTime": "02:45 PM",
+      "status": "Active",
+      "email": "bob.brown@example.com",
+      "phone": "98899090"
+    }
+  ],
+  "sales": [
+    {
+      "saleName": "Partnership with XYZ",
+      "opportunity": "Expansion",
+      "status": "Won",
+      "customerID": 2,
+      "id": "980c"
+    },
+    {
+      "saleName": "Renewal of Contract",
+      "opportunity": "Existing Customer",
+      "status": "Lost",
+      "customerID": 3,
+      "id": "7021"
+    },
+    {
+      "saleName": "Product Launch",
+      "opportunity": "New Product",
+      "status": "New",
+      "customerID": 4,
+      "id": "fb71"
+    },
+    {
+      "saleName": "Test 1",
+      "opportunity": "Sample Opportunity",
+      "status": "Closed Won",
+      "id": "a3d0"
+    }
+  ]
+}
